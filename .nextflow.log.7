@@ -1,0 +1,49 @@
+Dec-23 20:00:58.604 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Dec-23 20:00:58.672 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.4
+Dec-23 20:00:58.685 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/okendojo/.nextflow/plugins; core-plugins: nf-amazon@1.11.2,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.2
+Dec-23 20:00:58.692 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-23 20:00:58.692 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-23 20:00:58.694 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-23 20:00:58.703 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-23 20:00:58.714 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/okendojo/Desktop/software/verkkoNF/verkkoNF/nextflow.config
+Dec-23 20:00:58.714 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/okendojo/Desktop/software/verkkoNF/verkkoNF/nextflow.config
+Dec-23 20:00:58.725 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Dec-23 20:00:59.000 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Dec-23 20:00:59.012 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [cranky_feynman] DSL2 - revision: 0567f64d47
+Dec-23 20:00:59.013 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-23 20:00:59.013 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Dec-23 20:00:59.018 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /Users/okendojo/.nextflow/secrets/store.json
+Dec-23 20:00:59.019 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4c361f63] - activable => nextflow.secret.LocalSecretsProvider@4c361f63
+Dec-23 20:00:59.059 [main] DEBUG nextflow.Session - Session UUID: 7f0103d5-f81c-455e-8952-f3c74a3327e1
+Dec-23 20:00:59.059 [main] DEBUG nextflow.Session - Run name: cranky_feynman
+Dec-23 20:00:59.059 [main] DEBUG nextflow.Session - Executor pool size: 10
+Dec-23 20:00:59.065 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-23 20:00:59.090 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.4 build 5836
+  Created: 09-12-2022 09:58 UTC (04:58 EDT)
+  System: Mac OS X 12.3
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 73483@HG-02254160-LM [10.243.13.140]
+  CPUs: 10 - Mem: 16 GB (60.3 MB) - Swap: 4 GB (1.6 GB)
+Dec-23 20:00:59.101 [main] DEBUG nextflow.Session - Work-dir: /Users/okendojo/Desktop/software/verkkoNF/verkkoNF/work [Mac OS X]
+Dec-23 20:00:59.101 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/okendojo/Desktop/software/verkkoNF/verkkoNF/bin
+Dec-23 20:00:59.108 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-23 20:00:59.113 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-23 20:00:59.125 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Dec-23 20:00:59.131 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 11; maxThreads: 1000
+Dec-23 20:00:59.184 [main] DEBUG nextflow.Session - Session start
+Dec-23 20:00:59.252 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-23 20:00:59.257 [main] INFO  nextflow.script.BaseScript - 
+The verkko De novo assembly requires sample.fastq.gz and nano.fastq.gz as the input fastq files. The number od threads are 32 and at the end the results are written to results
+
+Dec-23 20:00:59.258 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: 
+Dec-23 20:00:59.259 [main] DEBUG nextflow.Session - Igniting dataflow network (0)
+Dec-23 20:00:59.259 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Dec-23 20:00:59.259 [main] DEBUG nextflow.Session - Session await
+Dec-23 20:00:59.259 [main] DEBUG nextflow.Session - Session await > all processes finished
+Dec-23 20:00:59.259 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-23 20:00:59.266 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Dec-23 20:00:59.408 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Dec-23 20:00:59.422 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Dec-23 20:00:59.422 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

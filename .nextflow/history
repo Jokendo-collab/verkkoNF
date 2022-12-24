@@ -1,0 +1,13 @@
+2022-12-23 19:36:41	-	lethal_moriondo	-	65f82535fec55a245bef2c524d1b32eb	21f1eeba-f48c-4ade-bad5-050e64dcffd8	nextflow run main.nf
+2022-12-23 19:37:29	-	suspicious_allen	-	667581e829249897200b1b94f4ae96a8	07cf0348-fe17-41ae-8fe7-f60f7c0cb229	nextflow run main.nf
+2022-12-23 19:38:36	828ms	berserk_darwin	OK	bb6921b1aa2a38e8c3e178d55f28caf3	cc5de4e5-a014-4058-9522-e8ef4f06a5d5	nextflow run main.nf
+2022-12-23 19:49:19	1.2s	mad_goldstine	OK	b958ac0d82f2ea8f19751f0d7cbdc016	e4c7ba73-c2d4-4966-bb75-715db8cbfead	nextflow run main.nf
+2022-12-23 19:52:01	801ms	nasty_mccarthy	OK	0567f64d47645c12cf2e7600a9b63447	b4670ba9-23a3-41c2-b078-d024e3f668ef	nextflow run main.nf
+2022-12-23 20:00:59	411ms	cranky_feynman	OK	0567f64d47645c12cf2e7600a9b63447	7f0103d5-f81c-455e-8952-f3c74a3327e1	nextflow run main.nf
+2022-12-23 20:41:06	-	fabulous_mclean	-	4418afa8c06ff5c64bcb05f84b966d3f	1afcd05b-83d5-47ed-b123-054d61aff146	nextflow run script1.nf
+2022-12-23 20:41:51	-	adoring_magritte	-	3aa4f4c821f3cdec0deadc47ba396b1f	7a69d669-a3b3-4b22-b13e-9fcd54c30a22	nextflow run script1.nf
+2022-12-23 20:42:45	-	deadly_edison	-	fd99d83a956411f965e30757892ac30d	d36559a9-34ad-45a0-a008-b213f583370e	nextflow run script1.nf
+2022-12-23 20:43:29	-	nostalgic_cray	-	fd99d83a956411f965e30757892ac30d	6efad476-709e-41cc-9454-86b3973e39db	nextflow run script1.nf
+2022-12-23 20:47:39	-	thirsty_mclean	-	c469ac362f1d8a3706189e5b0b087d5c	27070c0d-69d8-4290-a672-62fbd8ccb1dd	nextflow run script1.nf
+2022-12-23 20:48:20	2.3s	big_roentgen	OK	c88e084bb856e1386749c58b012802aa	9c7658c4-48de-445a-bca8-dbd54f1ffe7f	nextflow run script1.nf
+2022-12-23 20:49:35	1.1s	hungry_mccarthy	OK	76f1f67a6aed1979775a9ec1784c640d	ce9cce32-e3b2-435e-929b-92e33a796740	nextflow run script1.nf
